@@ -477,7 +477,8 @@ The screenshots referenced in this README can be found in the folder named **[as
   - [Compute Clusters](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ComputeClusters.png)
   - [Registered Datasets](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/All-DS.png)
   - [Registered Loan Prediction Dataset](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/LoanPred-DS.png)
-  - [Registered Loan Prediction Training Dataset](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/LoanPred-ValidateDS.png)
+  - [Registered Loan Prediction Training Dataset](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/LoanPred-TrainDS.png)
+  - [Registered Loan Prediction Validation Dataset](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/LoanPred-ValidateDS.png)
 
 * AutoML
   - [AutoML Experiment Run completed](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-Done.png)
