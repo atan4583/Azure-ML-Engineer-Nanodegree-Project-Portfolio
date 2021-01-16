@@ -440,10 +440,10 @@ Finally, to delete the web service deployed, run the code cells under the markdo
 
 ### Model Deployment Notes
 * The deployment steps described above are for deploying the best AutoML model, to deploy the best HyperDrive model, simply execute the code cells under the markdown cell titled `4. Model Deployment`  section in the `hyperparameter_tuning` notebook.
-* The best model file that was used in this project deployment can be found in the [best_model](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/tree/master/best_model) folder.
-* The registered model file from the AutoML and HyperDrive experiment runs in this project can be found in the [registered_model](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/tree/master/registered_model) folder.
-* This [conda environment](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/conda_env.yml) file contains the deployment environment details and must be included in the model deployment.
-* This [scoring script](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/score.py) file contains  the functions used to initialize the deployed web service at startup and run the model using request data passed in by a client call. It must be included in the model deployment.
+* The best model file that was used in this project deployment can be found in the [best_model](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/master/Capstone-Loan-App-Prediction/best_model) folder.
+* The registered model file from the AutoML and HyperDrive experiment runs in this project can be found in the [registered_model](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/master/Capstone-Loan-App-Prediction/registered_model) folder.
+* This [conda environment](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/conda_env.yml) file contains the deployment environment details and must be included in the model deployment.
+* This [scoring script](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/score.py) file contains  the functions used to initialize the deployed web service at startup and run the model using request data passed in by a client call. It must be included in the model deployment.
 
 
 ## Screen Recording
@@ -470,66 +470,66 @@ A small dataset was chosen for this project with the resource and time constrain
 > * Experiment with different hyperparameter sampling methods like [Gird sampling](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.gridparametersampling?view=azure-ml-py&preserve-view=true) or [Bayesian sampling](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.bayesianparametersampling?view=azure-ml-py&preserve-view=true) on the Scikit-learn LogicRegression model or other custom-coded machine learning models
 
 ## List of Required Screenshots
-The screenshots referenced in this README can be found in the folder named **[assets](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/tree/master/assets)**. A short description (description marked with an **_asterisk_** denotes **_mandatory_** submission screenshot) and link to each of them is listed here:
+The screenshots referenced in this README can be found in the folder named **[assets](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/master/Capstone-Loan-App-Prediction/assets)**. A short description (description marked with an **_asterisk_** denotes **_mandatory_** submission screenshot) and link to each of them is listed here:
 * Common
-  - [Project Workflow Overview](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/MLworkflow.png)
-  - [Compute Instance](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ComputeInstance.png)
-  - [Compute Clusters](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ComputeClusters.png)
-  - [Registered Datasets](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/All-DS.png)
-  - [Registered Loan Prediction Dataset](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/LoanPred-DS.png)
-  - [Registered Loan Prediction Training Dataset](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/LoanPred-TrainDS.png)
-  - [Registered Loan Prediction Training Dataset](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/LoanPred-ValidateDS.png)
+  - [Project Workflow Overview](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/MLworkflow.png)
+  - [Compute Instance](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ComputeInstance.png)
+  - [Compute Clusters](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ComputeClusters.png)
+  - [Registered Datasets](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/All-DS.png)
+  - [Registered Loan Prediction Dataset](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/LoanPred-DS.png)
+  - [Registered Loan Prediction Training Dataset](hhttps://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/LoanPred-TrainDS.png)
+  - [Registered Loan Prediction Training Dataset](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/LoanPred-ValidateDS.png)
 
 * AutoML
-  - [AutoML Experiment Run completed](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-Done.png)
-  - [AutoML RunDetails widget *](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-RunDetails.png)
-  - [AutoML Best Model *](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-TopModel.png)
-  - [AutoML Best Model with its run id *](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-BestRunID.png)
-  - [AutoML Best Model Details](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-VEDtls.png)
-  - [AutoML Best Model Training Algorithms](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-VEAlgoWgt.png)
-  - [AutoML Best Model Key Parameters](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-VEkeyParam.png)
-  - [AutoML Best Model Accuracy and Run Id](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-VEMetrics-2.png)
-  - [AutoML Best Model Estimator Details ](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-VEMetrics-3.png)
-  - [AutoML Best Model Metrics](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-VEMetrics-4.png)
-  - [AutoML Explainer: Dataset Exploration](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-Explain-1.png)
-  - [AutoML Explainer: Global Importance](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-Explain-2.png)
-  - [AutoML Explainer: Explanation Exploration](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-Explain-3.png)
-  - [AutoML Explainer: Summary Importance](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-Explain-4.png)
-  - [Saving and Registering AutoML Best Model](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-BestModelDnldReg.png)
-  - [AutoML Registered Best Model](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-BestModelReg.png)
-  - [AutoML Registered Best Model Details](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/AutoMLexp-BestModelRegDtl.png)
+  - [AutoML Experiment Run completed](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-Done.png)
+  - [AutoML RunDetails widget *](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-RunDetails.png)
+  - [AutoML Best Model *](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-TopModel.png)
+  - [AutoML Best Model with its run id *](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-BestRunID.png)
+  - [AutoML Best Model Details](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-VEDtls.png)
+  - [AutoML Best Model Training Algorithms](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-VEAlgoWgt.png)
+  - [AutoML Best Model Key Parameters](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-VEkeyParam.png)
+  - [AutoML Best Model Accuracy and Run Id](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-VEMetrics-2.png)
+  - [AutoML Best Model Estimator Details ](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-VEMetrics-3.png)
+  - [AutoML Best Model Metrics](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-VEMetrics-4.png)
+  - [AutoML Explainer: Dataset Exploration](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-Explain-1.png)
+  - [AutoML Explainer: Global Importance](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-Explain-2.png)
+  - [AutoML Explainer: Explanation Exploration](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-Explain-3.png)
+  - [AutoML Explainer: Summary Importance](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-Explain-4.png)
+  - [Saving and Registering AutoML Best Model](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-BestModelDnldReg.png)
+  - [AutoML Registered Best Model](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-BestModelReg.png)
+  - [AutoML Registered Best Model Details](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/AutoMLexp-BestModelRegDtl.png)
 
 * HyperDrive
-  - [HyperDrive Experiment Run Completion](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-Done.png)
-  - [HyperDrive RunDetails Widget *](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-RunDetails.png)
-  - [HyperDrive RunDetails Widget Metrics Visual *](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-RunDetailsVis.png)
-  - [Visualization of HyperDrive Training Progress and Performance of Hyperparameter Runs * ](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-RunProgressVis.png)
-  - [HyperDrive Best Model *](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-topModel.png)
-  - [HyperDrive Best Model Hyperparamters and Run Id * ](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-topModelMetrics-RunId.png)
-  - [HyperDrive Best Model Run Id and Tuned Hyperparamters *](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-topModelDtls.png)
-  - [HyperDirve Best Model Metrics](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-topModelMetricsVis.png)
-  - [Saving and Registering HyperDrive Best Model](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-BestModelDnldReg.png)
-  - [HyperDrive Registered Best Model](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-BestModelReg.png)
-  - [HyperDrive Registered Best Model Details](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/HDexp-BestModelRegDtl.png)
+  - [HyperDrive Experiment Run Completion](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-Done.png)
+  - [HyperDrive RunDetails Widget *](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-RunDetails.png)
+  - [HyperDrive RunDetails Widget Metrics Visual *](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-RunDetailsVis.png)
+  - [Visualization of HyperDrive Training Progress and Performance of Hyperparameter Runs * ](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-RunProgressVis.png)
+  - [HyperDrive Best Model *](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-topModel.png)
+  - [HyperDrive Best Model Hyperparamters and Run Id * ](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-topModelMetrics-RunId.png)
+  - [HyperDrive Best Model Run Id and Tuned Hyperparamters *](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-topModelDtls.png)
+  - [HyperDirve Best Model Metrics](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-topModelMetricsVis.png)
+  - [Saving and Registering HyperDrive Best Model](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-BestModelDnldReg.png)
+  - [HyperDrive Registered Best Model](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-BestModelReg.png)
+  - [HyperDrive Registered Best Model Details](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/HDexp-BestModelRegDtl.png)
 
 * Deployment
-  - [AutoML and HyperDrive Experiment Run Duration Comparison ](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ExpRunDuration.png)
-  - [Best Model Pick for Deployment ](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ModelDeployChoice.png)
-  - [Best Model Endpoint](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ModelDeployEndPoint.png)
-  - [Active Best Model Endpoint *](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ModelDeployEndPointDtls.png)
-  - [Best Model EndPoint Consume](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ModelDeployEndPointKeys.png)
-  - [Best Model Deployment logs](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ModelDeployEndPointLogs.png)
-  - [Enable Application Insights](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/WSUpdt-AppInsightEnable.png)
-  - [Application Insights URL](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ModelDeployUpdtAppInsight.png)
-  - [Application Insights Dashboard](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/WSUpdt-AppInsightPage.png)
-  - [Monitoring Scoring Endpoint with Application Insights](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/WSUpdt-AppInsightRqst.png)
-  - [Printing Logs of the Web Service](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/PrintWSLogs.png)
-  - [Prepare Data Payload for Testing Scoring Endpoint](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/WSTest-payload.png)
-  - [Testing Scoring Endpoint](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/WSTest-rqtrsp.png)
-  - [Alternate way for Testing Scoring Endpoint](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/WSTest-sendpayload.png)
-  - [Inference Demo: Preparing Data Payload](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ScoringEndptDemo-payload.png)
-  - [Inference Demo: Posting Request](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/ScoringEndptDemo-PostRqst.png)
-  - [Delete Web Service](https://github.com/atan4583/Capstone-Project-Azure-Machine-Learning-Engineer/blob/master/assets/DeleteWS.png)
+  - [AutoML and HyperDrive Experiment Run Duration Comparison ](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ExpRunDuration.png)
+  - [Best Model Pick for Deployment ](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ModelDeployChoice.png)
+  - [Best Model Endpoint](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ModelDeployEndPoint.png)
+  - [Active Best Model Endpoint *](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ModelDeployEndPointDtls.png)
+  - [Best Model EndPoint Consume](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ModelDeployEndPointKeys.png)
+  - [Best Model Deployment logs](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ModelDeployEndPointLogs.png)
+  - [Enable Application Insights](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/WSUpdt-AppInsightEnable.png)
+  - [Application Insights URL](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ModelDeployUpdtAppInsight.png)
+  - [Application Insights Dashboard](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/WSUpdt-AppInsightPage.png)
+  - [Monitoring Scoring Endpoint with Application Insights](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/WSUpdt-AppInsightRqst.png)
+  - [Printing Logs of the Web Service](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/PrintWSLogs.png)
+  - [Prepare Data Payload for Testing Scoring Endpoint](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/WSTest-payload.png)
+  - [Testing Scoring Endpoint](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/WSTest-rqtrsp.png)
+  - [Alternate way for Testing Scoring Endpoint](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/WSTest-sendpayload.png)
+  - [Inference Demo: Preparing Data Payload](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ScoringEndptDemo-payload.png)
+  - [Inference Demo: Posting Request](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/ScoringEndptDemo-PostRqst.png)
+  - [Delete Web Service](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/Capstone-Loan-App-Prediction/assets/DeleteWS.png)
 
 ## Citations
 
