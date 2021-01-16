@@ -36,7 +36,7 @@ _*Project notebooks are stowed in secured storage to discourage improper access.
 > ![png2](assets/MLOPSArch.png)
 >
 >
-> * Project specification: refer to this [rubric](hhttps://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/project2-rubric.pdf)
+> * Project specification: refer to this [rubric](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/master/project2-rubric.pdf)
 >
 >
 > * Project code and artifact repository: click [here](https://github.com/atan4583/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/master/Operationalizing-ML)
