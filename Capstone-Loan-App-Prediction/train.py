@@ -1,3 +1,7 @@
+'''
+HyperDrive Training Script Adapted from Udacity Project Starter Code
+By Audrey S Tan  12-13-2020 
+'''
 from sklearn.linear_model import LogisticRegression
 import argparse
 import os
